@@ -19,7 +19,7 @@ class Lab4
   public   void execute()
     {
         // Введіть шлях до файлу
-        string filePath = "/Users/edwardian/Downloads/oop_for_edik-main/oops/text.txt";
+        string filePath = "/Users/edwardian/Downloads/oop_main/oops/text.txt";
 
         // Зчитуємо вміст файлу до масиву символів
         char[] content = File.ReadAllText(filePath).ToCharArray();
